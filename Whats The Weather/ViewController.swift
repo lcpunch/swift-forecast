@@ -1,22 +1,7 @@
-//
-//  ViewController.swift
-//  Whats The Weather
-//
-//  Created by MAC on 2017-12-19.
-//  Copyright © 2017 lcpunch. All rights reserved.
-//
-
 import UIKit
 
-
-
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UITextFieldDelegate {
-    
-    var parser = XMLParser()
-    var posts = NSMutableArray()
-    var elements = NSMutableDictionary()
-    var element = NSString()
-    var title1 = NSMutableString()
+
     var date = NSMutableString()
     var dataStruct:Root? = nil
 
